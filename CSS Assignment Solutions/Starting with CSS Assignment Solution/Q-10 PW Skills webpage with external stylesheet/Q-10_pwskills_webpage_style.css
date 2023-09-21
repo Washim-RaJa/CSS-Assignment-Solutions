@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.about-head{
+    color: #00ff62;
+    font-size: 50px;
+    text-align: center;
+    font-family: Exotc350 Bd BT;
+    margin-top: 50px;
+}
+hr{
+    width: 54%;
+    height: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+#about-para{
+    width: 720px;
+    color: #00ff62;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    text-align: center;
+    line-height: 50px;
+    margin: 50px auto;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Informations</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        padding-top: 2px;
+    }
+    header{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 520px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+    h1{
+        text-align: center;
+        color: #f5f5f5;
+        font-family: sans-serif;
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        padding-top: 15px;
+    }
+    main{
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 520px;
+        height: 565px;
+        padding-left: 62px;
+        padding-top: 20px;
+        margin: 0 auto;
+        color: #f5f5f5;
+        border-radius: 0px 0px 10px 10px;
+    }
+    label{
+        color: #f5f5f5;
+        font-family: sans-serif;
+    }
+    #user-fullname,#user-email,#user-password,#user-mobile{
+        border: none;
+        border-radius: 2px;
+        width: 384px;
+        height: 30px;
+    }
+    #user-DoB{
+        font-family: sans-serif;
+        margin-right: 32px;
+    }
+    #user-address{
+        border: none;
+        border-radius: 2px;
+    }
+    #sub-btn{
+        color: #000000b3;
+        font-family: century gothic;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        border-radius: 2px;
+        width: 80px;
+        height: 35px;
+    }
+    #user-fullname:focus{
+        outline: none;
+        background-color: #ffff00;
+    }
+    #user-email:focus{
+        outline: none;
+        background-color: #ffff00;
+    }
+    #user-password:focus{
+        outline: none;
+        background-color: #ffff00;
+    }
+    #user-mobile:focus{
+        outline: none;
+        background-color: #ffff00;
+    }
+    #user-address:focus{
+        outline: none;
+        background-color: #ffff00;
+    }
+    #sub-btn:hover{
+        color: #ff0000;
+    }
+</style>
+<body>
+    <header>
+        <h1>Enter Your Informations Below</h1>
+    </header>
+    <main>
+        <form>
+            <label for="user-fullname">Full Name</label><br/>
+            <input type="text" name="fullname" id="user-fullname"/><br/><br/>
+            <label for="user-email">Email Address</label><br/>
+            <input type="email" name="email" id="user-email"/><br/><br/>
+            <label for="user-password">Password</label><br/>
+            <input type="password" name="password" id="user-password"/><br/><br/>
+            <label for="user-mobile">Mobile No.</label><br/>
+            <input type="tel" name="mobile" id="user-mobile"/><br/><br/>
+            <label for="user-DoB">D.o.B</label>
+            <input type="date" name="DoB" id="user-DoB"/>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female<br/><br/>
+            <label for="user-address">Address</label><br/>
+            <textarea name="address" id="user-address" cols="49" rows="9"></textarea><br/><br/>
+            <input type="submit" value="Submit" id="sub-btn">
+        </form>
+    </main>
+</body>
+</html>

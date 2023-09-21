@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar with different border style</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+        background-color: #6D90CA;
+        padding-top: 9px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    #home-btn{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border: 2px solid #000000;
+    }
+    #about-btn{
+        width: 74px;
+        height: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border: 2px dashed #000000;
+    }
+    #cont-btn{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border: 2px groove #000000;
+    }
+    #blog-btn{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border: 2px dotted #000000;
+    }
+    #login-btn{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border: 2px ridge #000000;
+    }
+    a{
+        color: #ffffff;
+        
+    }
+    a:hover{
+        color: #000000;
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li id="home-btn">
+                <a href="#">Home</a>
+            </li>
+            <li id="about-btn">
+                <a href="#">About Us</a>
+            </li>
+            <li id="cont-btn">
+                <a href="#">Contact</a>
+            </li>
+            <li id="blog-btn">
+                <a href="#">Blog</a>
+            </li>
+            <li id="login-btn">
+                <a href="#">Login</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

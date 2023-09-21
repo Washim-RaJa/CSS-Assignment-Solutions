@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Informations</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        padding-top: 2px;
+        background-color: #000000b3;
+    }
+    header{
+        background-color: #ccc;
+        width: 520px;
+        height: 50px;
+        margin: 0 auto;
+        border-radius: 10px 10px 0px 0px;
+    }
+    h1{
+        text-align: center;
+        color: #000000b3;
+        font-family: sans-serif;
+        font-size: 25px;
+        padding: 0;
+        margin: 0;
+        padding-top: 15px;
+    }
+    main{
+        background-color: #ccc;
+        width: 520px;
+        height: 565px;
+        padding-left: 62px;
+        padding-top: 20px;
+        margin: 0 auto;
+        color: #000000;
+        border-radius: 0px 0px 10px 10px;
+    }
+    label{
+        color: #000000;
+        font-family: sans-serif;
+    }
+    /* Implementing CSS with CSS attribute selector */
+    input[type="text"]{
+        color: #ff0000;
+        font-size: 17px;
+        border: none;
+        border-radius: 2px;
+        width: 384px;
+        height: 30px;
+    }
+    input[type="email"]{
+        color: #06f806;
+        font-size: 17px;
+        border: none;
+        border-radius: 2px;
+        width: 384px;
+        height: 30px;
+    }
+    input[type="password"]{
+        color: #0000ff;
+        font-size: 17px;
+        border: none;
+        border-radius: 2px;
+        width: 384px;
+        height: 30px;
+    }
+    input[type="tel"]{
+        color: #f8309b;
+        font-size: 17px;
+        border: none;
+        border-radius: 2px;
+        width: 384px;
+        height: 30px;
+    }
+    input[type="date"]{
+        color: #a52a2a;
+        font-family: sans-serif;
+        margin-right: 32px;
+    }
+    textarea[name="address"]{
+        color: #ffa500;
+        font-size: 17px;
+        border: none;
+        border-radius: 2px;
+    }
+    input[type="submit"]{
+        color: #000000b3;
+        font-family: century gothic;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        border-radius: 2px;
+        width: 80px;
+        height: 35px;
+    }
+    input[type="submit"]:hover{
+        color: #ff0000
+    }
+</style>
+<body>
+    <header>
+        <h1>Register Now !</h1>
+    </header>
+    <main>
+        <form>
+            <label for="user-fullname">Full Name</label><br/>
+            <input type="text" name="fullname" id="user-fullname"/><br/><br/>
+            <label for="user-email">Email Address</label><br/>
+            <input type="email" name="email" id="user-email"/><br/><br/>
+            <label for="user-password">Password</label><br/>
+            <input type="password" name="password" id="user-password"/><br/><br/>
+            <label for="user-mobile">Mobile No.</label><br/>
+            <input type="tel" name="mobile" id="user-mobile"/><br/><br/>
+            <label for="user-DoB">D.o.B</label>
+            <input type="date" name="DoB" id="user-DoB"/>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female<br/><br/>
+            <label for="user-address">Address</label><br/>
+            <textarea name="address" id="user-address" cols="39" rows="7"></textarea><br/><br/>
+            <input type="submit" value="Register" id="sub-btn">
+        </form>
+    </main>
+</body>
+</html>
